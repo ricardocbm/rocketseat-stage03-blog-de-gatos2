@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Blog de Gatos</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <header>Header</header>
+    <div id="app">
+      <header class="container">
+        <img class="logo" src="./assets/paw.svg" alt="ilustração da patinha" />
+
+        <form>
+          <div class="input-wrapper">
+            <label for="search">pesquise por artigos</label>
+            <input id="search" type="text" placeholder="Pesquise por artigos" />
+          </div>
+        </form>
+        <img
+          class="avatar"
+          src="https://randomuser.me/api/portraits/men/5.jpg"
+          alt=""
+        />
+      </header>
+
+      <main>
+        <section>
+          <img
+            id="hero-img"
+            src="./assets/hero-gato-por-do-sol.png"
+            alt="gato-ao-por-do-sol"
+          />
+          <div id="h1likes">
+            <h1>Seriam os gatos astronautas?</h1>
+            <div class="image-wrapper">
+              <img src="./assets/like-icon.svg" alt="like button" />
+              <img src="./assets/dislike-icon.svg" alt="dislike button" />
+            </div>
+          </div>
+          <div id="texto-principal">
+            <p>
+              Os gatos são animais fascinantes e cercados de mistérios. De
+              temperamento independente e misterioso, esses felinos são
+              conhecidos por sua agilidade, elegância e um comportamento muitas
+              vezes imprevisível. Contudo, recentemente, uma teoria tem ganhado
+              espaço na internet e entre teóricos de conspiração: seriam os
+              gatos astronautas?
+              <br />
+              <br />
+
+              A teoria sugere que os gatos não são animais terrestres, mas sim
+              seres extraterrestres enviados para realizar uma missão específica
+              em nosso planeta. Há relatos históricos que apontam para o fato de
+              que os gatos eram considerados seres sagrados em diferentes
+              culturas e até mesmo associados a figuras divinas. Isso poderia
+              indicar que os gatos têm uma origem muito mais mística do que se
+              pensava anteriormente.
+
+              <br />
+              <br />
+              Além disso, há teóricos que acreditam que os felinos possuem
+              habilidades telepáticas e são capazes de se comunicar com outras
+              espécies alienígenas. Essa crença baseia-se em relatos de pessoas
+              que afirmam terem visto gatos reagindo a estímulos que não são
+              perceptíveis aos seres humanos, ou até mesmo se comportando de
+              maneira incomum durante eventos astronômicos, como uma aurora
+              boreal. Esses e outros indícios foram interpretados como sinais de
+              que os gatos seriam seres interplanetários.
+            </p>
+          </div>
+        </section>
+
+        <section id="segunda">
+          <h2>Artigos relacionados</h2>
+          <div class="mini-artigo">
+            <img src="./assets/card01.png" alt="gato preto-e-branco" />
+            <div class="mini-artigo-texto">
+              <h3>Sábado preguiçoso</h3>
+              <p>
+                Descubra atividades interessantes para fazer com seu pet durante
+                os finais de semana.
+              </p>
+            </div>
+          </div>
+          <div class="mini-artigo">
+            <img src="./assets/card02.png" alt="gato preto-e-branco" />
+            <div class="mini-artigo-texto">
+              <h3>Balaio de gatos</h3>
+              <p>
+                Como evitar confusões entre seus gatíneos e acostumá-los desde
+                filhotes.
+              </p>
+            </div>
+          </div>
+          <div class="mini-artigo">
+            <img src="./assets/card03.png" alt="gato preto-e-branco" />
+            <div class="mini-artigo-texto">
+              <h3>Cartela de cores</h3>
+              <p>
+                Seu gato é inverno intenso? Verão profundo? Descubra as cores
+                que mais combinam com seu bichano.
+              </p>
+            </div>
+          </div>
+          <div class="mini-artigo">
+            <img src="./assets/card04.png" alt="gato preto-e-branco" />
+            <div class="mini-artigo-texto">
+              <h3>Os gatos sentem frio?</h3>
+              <p>
+                Preparem-se para a frente fria que vem para o país da melhor
+                maneira possível.
+              </p>
+            </div>
+          </div>
+          <div class="mini-artigo">
+            <img src="./assets/card05.png" alt="gato preto-e-branco" />
+            <div class="mini-artigo-texto">
+              <h3>Conheça o Moacir</h3>
+              <p>
+                Moacir é o gatinho da semana do nosso blog. Venha conhecer sua
+                história de superação.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer><p>© 2023 - Rocketseat Explorer</p></footer>
+    </div>
   </body>
 </html>
